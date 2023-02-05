@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Alihszh/NFT_based_XP_System/issues"
   },
-  "homepage": "https://github.com/Alihszh/NFT_based_XP_System#readme"
+  "homepage": "https://github.com/Alihszh/NFT_based_XP_System#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.1"
+  }
 }
