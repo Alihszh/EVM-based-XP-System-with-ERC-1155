@@ -78,6 +78,14 @@ module.exports = {
       timeoutBlocks: 200,
       skipDryRun: true
     },
+
+    Mumbai: {
+      provider: () => new HDWalletProvider(privateKey, `https://rpc-mumbai.maticvigil.com`),
+      network_id: 80001,
+      confirmations: 1,
+      timeoutBlocks: 200,
+      skipDryRun: true
+    },
     //
     // Useful for private networks
     // private: {
