@@ -1,4 +1,4 @@
-const Migrations = artifacts.require("Migrations");
+const nft = artifacts.require("nft");
 
 module.exports = function (deployer) {
   deployer.deploy(Migrations);
