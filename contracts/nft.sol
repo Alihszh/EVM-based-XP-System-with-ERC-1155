@@ -46,10 +46,6 @@ contract nft is ERC721, ERC721URIStorage, Ownable {
         return publicURI;
     }
 
-    //////////FOR OPENSEA   -- IT SHOULD CHANGE
-    function contractURI() public pure returns (string memory) {
-        return "ipfs://QmTugTgbD2nuc86JuPpmL6sn9MEM2uXwpumHL1AMaGeJnk";
-    }
 
     function set_public_URI(string memory URI) public onlyOwner {
         publicURI = URI;
