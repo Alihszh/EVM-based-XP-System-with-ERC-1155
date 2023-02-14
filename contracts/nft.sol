@@ -81,7 +81,7 @@ contract nft is ERC721, ERC721URIStorage, Ownable {
     }
 
     /////////////////////////////////////////////THIS FUNCTION IS JUST FOR TEST PURPOSES (!!0) --- !!2
-    function set(address nft_tracker_address) public onlyOwner {
-        _nftExplorerAddress = nft_tracker_address;
+    function set_nft_explorer_address(address nft_explorer_address) public onlyOwner {
+        _nftExplorerAddress = nft_explorer_address;
     }
 }
