@@ -1,5 +1,5 @@
 const nft = artifacts.require("nft");
 
 module.exports = function (deployer) {
-  deployer.deploy(Migrations);
+  deployer.deploy(nft);
 };
